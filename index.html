@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benin City Center Hotel | Cotonou Luxury</title>
+    <meta name="description" content="Experience comfort in the heart of Cotonou. Book your stay at Benin City Center Hotel today." />
+    
+    <!-- Google Fonts: Playfair Display (Luxury Headings) & Inter (Clean Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                black: '#0F0F0F',
+                gold: '#C6A75E',
+                goldLight: '#E5C67A',
+                white: '#F5F5F5',
+                darkGray: '#1A1A1A'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            backgroundImage: {
+              'hero-pattern': "url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop')",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth scrolling */
+      html { scroll-behavior: smooth; }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #0F0F0F; }
+      ::-webkit-scrollbar-thumb { background: #C6A75E; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #E5C67A; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.565.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-white text-brand-black antialiased selection:bg-brand-gold selection:text-brand-black">
+    <div id="root"></div>
+  </body>
+</html>
